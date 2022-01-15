@@ -223,44 +223,65 @@
 
 
 .body3__row {
+  width: 1100px;
+  margin: 0 auto;
   display: flex;
 }
 
-.body3__item1 {
 
+
+
+.column {
+  display: flex;
+  flex:1 1 33.333%;
+  padding: 42px 0 0 0;
+  justify-content:center;
+
+
+}
+.item{
   width: 321px;
-  height: 420px;
+  min-height: 420px;
   background: #FFFFFF;
   border: 1px solid #8DD83D;
   box-sizing: border-box;
   border-radius: 4px;
-  margin: 42px 32px 0 160px;
-}
 
-.body3__png {
-  object-fit: cover;
+
+&__blockpng{
+  display: flex;
+  width: 318px;
   height: 180px;
+  background-color: #FAFAFA;
+ justify-content: center;
+  align-items: center;
 }
 
-.body3__subtitle {
+&__img{
+
+  height: 180px;
+
+
+
+}
+&__subtitle {
   font-family: HelveticaNeue;
   font-size: 18px;
   line-height: 21px;
   color: #435766;
   padding: 16px 0 13px 22px;
 }
-
-.body3__text {
+&__text {
   font-family: HelveticaNeue;
   font-size: 24px;
   line-height: 28px;
   color: #435766;
-  padding: 0 77px 40px 22px;
+  padding: 0 41px 40px 21px;
+  word-wrap: break-word;
 }
 
-.body3__btn {
-}
-.body3__button{
+
+
 
 }
 .button{
@@ -272,72 +293,7 @@
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
-  margin: 0 21px;
-}
-
-.body3__item2 {
-
-  width: 321px;
-  height: 420px;
-  background: #FFFFFF;
-  border: 1px solid #8DD83D;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin: 42px 32px 0 32px;
-}
-.body3__png2 {
-padding: 53px 55px 66px 54px;
-  height: 180px;
-
-}
-
-.body3__subtitle2 {
-  font-family: HelveticaNeue;
-  font-size: 18px;
-  line-height: 21px;
-  color: #435766;
-  padding: 16px 167px 13px 22px;
-}
-
-.body3__text3 {
-  font-family: HelveticaNeue;
-  font-size: 24px;
-  line-height: 28px;
-  color: #435766;
-  padding: 0 41px 40px 21px;
-}
-
-
-.body3__item3 {
-
-  width: 321px;
-  height: 420px;
-  background: #FFFFFF;
-  border: 1px solid #8DD83D;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin: 42px 160px 0 32px;
-}
-.body3__png3 {
-  object-fit: cover;
-  height: 180px;
-  padding: 33px 59px;
-}
-
-.body3__subtitle3 {
-  font-family: HelveticaNeue;
-  font-size: 18px;
-  line-height: 21px;
-  color: #435766;
-  padding: 16px 95px 13px 22px;
-}
-
-.body3__text4 {
-  font-family: HelveticaNeue;
-  font-size: 24px;
-  line-height: 28px;
-  color: #435766;
-  padding: 0 77px 40px 22px;
+  margin: 0 21px 27px 21px;
 }
 
 
