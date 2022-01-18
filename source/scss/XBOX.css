@@ -360,6 +360,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
   margin: 20px auto;
 }
+.item__btn .button:hover {
+  background-color: mediumseagreen;
+}
 
 .body4 {
   min-height: 880px;

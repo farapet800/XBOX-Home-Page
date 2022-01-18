@@ -325,6 +325,9 @@
       line-height: 21px;
       color: #FFFFFF;
       margin: 20px auto;
+      &:hover {
+        background-color: mediumseagreen;
+      }
     }
   }
 }
