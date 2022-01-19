@@ -105,6 +105,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   display: flex;
   align-items: center;
+  border-bottom: 3px solid #777777;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .menu__container {
   width: 1070px;
@@ -113,10 +116,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .menu__logo {
-  background: url("../../img/logo/xbox.png") 0 0 no-repeat;
   width: 96px;
   height: 29px;
   padding-right: 330px;
+  transition: 1s;
+}
+.menu__logo:hover {
+  transform: scale(1.1);
 }
 .menu__list {
   display: flex;
@@ -128,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 20px;
   width: 20px;
   position: absolute;
+  transform: translate(0, -3px);
   margin: 0 0 0 6px;
 }
 .menu__list a {
@@ -137,6 +144,10 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   padding: 0 30px;
   position: relative;
+  transition: 0.5s;
+}
+.menu__list a:hover {
+  color: #8DD83D;
 }
 .menu__list a:after {
   content: "";
@@ -200,6 +211,10 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 135px;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
+}
+.body2__item1:hover {
+  transform: scale(1.2);
 }
 .body2__item2 {
   flex: 0 0 1130px;
@@ -234,6 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: HelveticaNeue;
   font-size: 16px;
   line-height: 21px;
+  transition: 1s;
 }
 .body2__watch:hover {
   background: #8DD83D;
@@ -247,6 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: HelveticaNeue;
   font-size: 16px;
   line-height: 21px;
+  transition: 1s;
 }
 .body2__explore:hover {
   background: #8DD83D;
@@ -256,6 +273,10 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 135px;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
+}
+.body2__item3:hover {
+  transform: scale(1.2);
 }
 
 .body3 {
@@ -359,6 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 21px;
   color: #FFFFFF;
   margin: 20px auto;
+  transition: 1s;
 }
 .item__btn .button:hover {
   background-color: mediumseagreen;
@@ -414,6 +436,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+  transition: 1s;
 }
 .body4__button:hover {
   background: #8DD83D;
@@ -490,6 +513,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 21px;
   color: #FFFFFF;
   margin: 0 15px 0 0;
+  transition: 1s;
 }
 .body5__content .block1__btn .button:hover {
   background: #8DD83D;
@@ -510,14 +534,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .body6 .title {
   padding-bottom: 30px;
-}
-.body6 .title a {
   font-family: HelveticaNeue;
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF;
-}
-.body6 .title a:hover {
   color: #8DD83D;
 }
 .body6 .list a {
@@ -540,6 +559,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 85px;
   display: flex;
   justify-content: space-between;
+  transition: 1s;
+}
+.body6__icons:hover {
+  transform: scale(1.2);
 }
 .body6__line {
   width: 1400px;
